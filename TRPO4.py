@@ -213,3 +213,5 @@ if __name__ == '__main__':
     print('\nINTEGRAL')
     print(f'integrate obj1 from -1 to 1: {obj1.integrate(-1,1)}\nintegrate obj2 from 5 to 0: {obj2.integrate(5, 0)}')
     '''
+
+    #запушим
