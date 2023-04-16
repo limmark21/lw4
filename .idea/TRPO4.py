@@ -172,7 +172,7 @@ class Polynomial:
 if __name__ == '__main__':
     obj1 = Polynomial([1, 0])
     obj2 = Polynomial([1])
-    print('________________________________________________________________________________________')
+
     p = obj1.sum(obj2)
     print('p= ', p)
     q = obj2.difference(obj1)
@@ -194,7 +194,7 @@ if __name__ == '__main__':
     t7 = p.difference(p)
     print('t7 = ', t7)
 
-    print('________________________________________________________________________________________')
+    '''
     print(obj1)
     print(obj2, end='\n\n')
     print(f'SUM:\nfirst way {obj1.sum(obj2)}\nsecond way {obj2.sum(obj1)}\n')
@@ -212,4 +212,6 @@ if __name__ == '__main__':
 
     print('\nINTEGRAL')
     print(f'integrate obj1 from -1 to 1: {obj1.integrate(-1,1)}\nintegrate obj2 from 5 to 0: {obj2.integrate(5, 0)}')
+    '''
 
+    #запушим
