@@ -1,4 +1,4 @@
-#Пушим жестко
+#PUSH HARD
 class Polynomial:
     def __init__(self, coef: list):
         self._coef_ = tuple(map(float, coef))
