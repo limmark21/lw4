@@ -8,6 +8,8 @@ class Polynomial:
         except IndexError:
             self._coef_ = (0,)
 
+
+
     def __str__(self):
         res = ''
         if self.degree() > 1:
